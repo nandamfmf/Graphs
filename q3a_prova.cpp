@@ -32,7 +32,7 @@ int main()
     vector<vector<bool>> ehOceano(N, vector<bool>(M, false));
     queue<pair<int, int>> qOceano;
 
-    // adiciona tds as celulas da borda na matriz de oceano
+    // adiciona todas as celulas da borda na matriz de oceano
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j < M; j++)
